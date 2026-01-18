@@ -18,9 +18,9 @@ sock2.write("hi yourself");
 
 auto recvd2 = sock3.read();
 
-sock1.close();              // don't need to accept any more connections
-sock2.close();              // you can call close(2) on a socket
-sock3.shutdown(SHUT_RDWR);  // you can also shutdown(2) a socket
+sock1.close();             // don't need to accept any more connections
+sock2.close();             // you can call close(2) on a socket
+sock3.shutdown(SHUT_RDWR); // you can also shutdown(2) a socket
 if (recvd != "hi there" || recvd2 != "hi yourself") {
-    throw std::runtime_error("wrong data received");
+  throw std::runtime_error("wrong data received");
 }

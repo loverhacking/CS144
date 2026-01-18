@@ -10,5 +10,5 @@ pipe2.write("hi yourself");
 auto recvd2 = pipe1.read();
 
 if (recvd != "hi there" || recvd2 != "hi yourself") {
-    throw std::runtime_error("wrong data received");
+  throw std::runtime_error("wrong data received");
 }

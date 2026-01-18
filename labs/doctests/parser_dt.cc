@@ -6,10 +6,10 @@
 #include <vector>
 
 int main() {
-    try {
+  try {
 #include "parser_example.cc"
-    } catch (...) {
-        return EXIT_FAILURE;
-    }
-    return EXIT_SUCCESS;
+  } catch (...) {
+    return EXIT_FAILURE;
+  }
+  return EXIT_SUCCESS;
 }
