@@ -296,6 +296,110 @@ spongechecks/fast:
 .PHONY : spongechecks/fast
 
 #=============================================================================
+# Target rules for targets named fsm_stream_reassembler_single
+
+# Build rule for target.
+fsm_stream_reassembler_single: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_single
+.PHONY : fsm_stream_reassembler_single
+
+# fast build rule for target.
+fsm_stream_reassembler_single/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_single.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_single.dir/build
+.PHONY : fsm_stream_reassembler_single/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_seq
+
+# Build rule for target.
+fsm_stream_reassembler_seq: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_seq
+.PHONY : fsm_stream_reassembler_seq
+
+# fast build rule for target.
+fsm_stream_reassembler_seq/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build
+.PHONY : fsm_stream_reassembler_seq/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_dup
+
+# Build rule for target.
+fsm_stream_reassembler_dup: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_dup
+.PHONY : fsm_stream_reassembler_dup
+
+# fast build rule for target.
+fsm_stream_reassembler_dup/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build
+.PHONY : fsm_stream_reassembler_dup/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_holes
+
+# Build rule for target.
+fsm_stream_reassembler_holes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_holes
+.PHONY : fsm_stream_reassembler_holes
+
+# fast build rule for target.
+fsm_stream_reassembler_holes/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_holes.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_holes.dir/build
+.PHONY : fsm_stream_reassembler_holes/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_many
+
+# Build rule for target.
+fsm_stream_reassembler_many: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_many
+.PHONY : fsm_stream_reassembler_many
+
+# fast build rule for target.
+fsm_stream_reassembler_many/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_many.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_many.dir/build
+.PHONY : fsm_stream_reassembler_many/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_overlapping
+
+# Build rule for target.
+fsm_stream_reassembler_overlapping: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_overlapping
+.PHONY : fsm_stream_reassembler_overlapping
+
+# fast build rule for target.
+fsm_stream_reassembler_overlapping/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build
+.PHONY : fsm_stream_reassembler_overlapping/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_win
+
+# Build rule for target.
+fsm_stream_reassembler_win: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_win
+.PHONY : fsm_stream_reassembler_win
+
+# fast build rule for target.
+fsm_stream_reassembler_win/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_win.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/build
+.PHONY : fsm_stream_reassembler_win/fast
+
+#=============================================================================
+# Target rules for targets named fsm_stream_reassembler_cap
+
+# Build rule for target.
+fsm_stream_reassembler_cap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fsm_stream_reassembler_cap
+.PHONY : fsm_stream_reassembler_cap
+
+# fast build rule for target.
+fsm_stream_reassembler_cap/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build
+.PHONY : fsm_stream_reassembler_cap/fast
+
+#=============================================================================
 # Target rules for targets named byte_stream_construction
 
 # Build rule for target.
@@ -424,6 +528,14 @@ help:
 	@echo "... byte_stream_many_writes"
 	@echo "... byte_stream_one_write"
 	@echo "... byte_stream_two_writes"
+	@echo "... fsm_stream_reassembler_cap"
+	@echo "... fsm_stream_reassembler_dup"
+	@echo "... fsm_stream_reassembler_holes"
+	@echo "... fsm_stream_reassembler_many"
+	@echo "... fsm_stream_reassembler_overlapping"
+	@echo "... fsm_stream_reassembler_seq"
+	@echo "... fsm_stream_reassembler_single"
+	@echo "... fsm_stream_reassembler_win"
 	@echo "... parser_dt"
 	@echo "... socket_dt"
 	@echo "... sponge"

@@ -20,6 +20,14 @@
 /mnt/hgfs/labs/build/apps/CMakeFiles/edit_cache.dir
 /mnt/hgfs/labs/build/apps/CMakeFiles/rebuild_cache.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/spongechecks.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_single.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_seq.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_dup.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_holes.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_many.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_win.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_cap.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/byte_stream_construction.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/byte_stream_one_write.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/byte_stream_two_writes.dir

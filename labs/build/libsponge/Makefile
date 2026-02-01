@@ -164,6 +164,30 @@ byte_stream.cc.s:
 	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f libsponge/CMakeFiles/sponge.dir/build.make libsponge/CMakeFiles/sponge.dir/byte_stream.cc.s
 .PHONY : byte_stream.cc.s
 
+stream_reassembler.o: stream_reassembler.cc.o
+.PHONY : stream_reassembler.o
+
+# target to build an object file
+stream_reassembler.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f libsponge/CMakeFiles/sponge.dir/build.make libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o
+.PHONY : stream_reassembler.cc.o
+
+stream_reassembler.i: stream_reassembler.cc.i
+.PHONY : stream_reassembler.i
+
+# target to preprocess a source file
+stream_reassembler.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f libsponge/CMakeFiles/sponge.dir/build.make libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.i
+.PHONY : stream_reassembler.cc.i
+
+stream_reassembler.s: stream_reassembler.cc.s
+.PHONY : stream_reassembler.s
+
+# target to generate assembly for a file
+stream_reassembler.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f libsponge/CMakeFiles/sponge.dir/build.make libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.s
+.PHONY : stream_reassembler.cc.s
+
 util/address.o: util/address.cc.o
 .PHONY : util/address.o
 
@@ -369,6 +393,9 @@ help:
 	@echo "... byte_stream.o"
 	@echo "... byte_stream.i"
 	@echo "... byte_stream.s"
+	@echo "... stream_reassembler.o"
+	@echo "... stream_reassembler.i"
+	@echo "... stream_reassembler.s"
 	@echo "... util/address.o"
 	@echo "... util/address.i"
 	@echo "... util/address.s"

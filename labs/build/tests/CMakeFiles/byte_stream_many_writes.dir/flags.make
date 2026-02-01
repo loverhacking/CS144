@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge
 
-CXX_FLAGS =  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -std=gnu++17
+CXX_FLAGS =  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17
 

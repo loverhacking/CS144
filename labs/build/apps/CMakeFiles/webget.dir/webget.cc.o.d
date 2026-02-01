@@ -41,6 +41,8 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/aarch64-linux-gnu/bits/select2.h \
+ /usr/include/aarch64-linux-gnu/bits/select-decl.h \
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -59,6 +61,7 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
  /usr/include/aarch64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/aarch64-linux-gnu/bits/socket2.h \
  /usr/include/aarch64-linux-gnu/bits/in.h /usr/include/rpc/netdb.h \
  /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h \
@@ -78,6 +81,8 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/aarch64-linux-gnu/bits/wchar2-decl.h \
+ /usr/include/aarch64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/13/type_traits /usr/include/c++/13/bits/allocator.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++allocator.h \
  /usr/include/c++/13/bits/new_allocator.h /usr/include/c++/13/new \
@@ -120,7 +125,9 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
  /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
  /usr/include/stdlib.h /usr/include/aarch64-linux-gnu/bits/waitflags.h \
  /usr/include/aarch64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/aarch64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/13/bits/std_abs.h /usr/include/c++/13/cstdio \
  /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
@@ -128,9 +135,11 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/13/cerrno /usr/include/errno.h \
- /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/aarch64-linux-gnu/asm/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio2.h /usr/include/c++/13/cerrno \
+ /usr/include/errno.h /usr/include/aarch64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/aarch64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
