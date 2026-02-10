@@ -15,6 +15,7 @@ If so, write it to the `_output` stream and advance the window.
   and unassembled data(Red), i.e. the first index of unassembled data.
   * use **slide window** to manage the data in the buffer. Only update the window (i.e. update the `_nextIndex`) 
   when continuous data is extracted.
-  * Only extract continuous data when the `_output` stream has enough capacity.
+  * Only extract continuous data when the `_output` stream has enough capacity. Since `_output` stores all the reassembled data,
+  the `remaining_capacity()` method will show the size of the unread but reassembled data (Green).
   
 
