@@ -10,6 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/hgfs/labs/libsponge/byte_stream.cc" "libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o.d"
   "/mnt/hgfs/labs/libsponge/stream_reassembler.cc" "libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o.d"
+  "/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_header.cc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o.d"
+  "/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_segment.cc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o.d"
+  "/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_state.cc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o.d"
+  "/mnt/hgfs/labs/libsponge/tcp_receiver.cc" "libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o.d"
   "/mnt/hgfs/labs/libsponge/util/address.cc" "libsponge/CMakeFiles/sponge.dir/util/address.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/address.cc.o.d"
   "/mnt/hgfs/labs/libsponge/util/buffer.cc" "libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o.d"
   "/mnt/hgfs/labs/libsponge/util/eventloop.cc" "libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o.d"
@@ -18,6 +22,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/hgfs/labs/libsponge/util/socket.cc" "libsponge/CMakeFiles/sponge.dir/util/socket.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/socket.cc.o.d"
   "/mnt/hgfs/labs/libsponge/util/tun.cc" "libsponge/CMakeFiles/sponge.dir/util/tun.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/tun.cc.o.d"
   "/mnt/hgfs/labs/libsponge/util/util.cc" "libsponge/CMakeFiles/sponge.dir/util/util.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/util/util.cc.o.d"
+  "/mnt/hgfs/labs/libsponge/wrapping_integers.cc" "libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o" "gcc" "libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

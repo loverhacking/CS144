@@ -1,2 +1,2 @@
-18:t_strm_reassem_single
-25:t_strm_reassem_cap
+9:t_recv_close
+10:t_recv_special

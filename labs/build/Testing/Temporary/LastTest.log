@@ -1,17 +1,167 @@
-Start testing: Feb 01 15:19 UTC
+Start testing: Feb 18 16:41 UTC
 ----------------------------------------------------------
-18/169 Testing: t_strm_reassem_single
-18/169 Test: t_strm_reassem_single
-Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_single"
+1/169 Testing: t_wrapping_ints_cmp
+1/169 Test: t_wrapping_ints_cmp
+Command: "/mnt/hgfs/labs/build/tests/wrapping_integers_cmp"
 Directory: /mnt/hgfs/labs/build
-"t_strm_reassem_single" start time: Feb 01 15:19 UTC
+"t_wrapping_ints_cmp" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_single" end time: Feb 01 15:19 UTC
+"t_wrapping_ints_cmp" end time: Feb 18 16:41 UTC
+"t_wrapping_ints_cmp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/169 Testing: t_wrapping_ints_unwrap
+2/169 Test: t_wrapping_ints_unwrap
+Command: "/mnt/hgfs/labs/build/tests/wrapping_integers_unwrap"
+Directory: /mnt/hgfs/labs/build
+"t_wrapping_ints_unwrap" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_wrapping_ints_unwrap" end time: Feb 18 16:41 UTC
+"t_wrapping_ints_unwrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/169 Testing: t_wrapping_ints_wrap
+3/169 Test: t_wrapping_ints_wrap
+Command: "/mnt/hgfs/labs/build/tests/wrapping_integers_wrap"
+Directory: /mnt/hgfs/labs/build
+"t_wrapping_ints_wrap" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_wrapping_ints_wrap" end time: Feb 18 16:41 UTC
+"t_wrapping_ints_wrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/169 Testing: t_wrapping_ints_roundtrip
+4/169 Test: t_wrapping_ints_roundtrip
+Command: "/mnt/hgfs/labs/build/tests/wrapping_integers_roundtrip"
+Directory: /mnt/hgfs/labs/build
+"t_wrapping_ints_roundtrip" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"t_wrapping_ints_roundtrip" end time: Feb 18 16:41 UTC
+"t_wrapping_ints_roundtrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/169 Testing: t_recv_connect
+5/169 Test: t_recv_connect
+Command: "/mnt/hgfs/labs/build/tests/recv_connect"
+Directory: /mnt/hgfs/labs/build
+"t_recv_connect" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_connect" end time: Feb 18 16:41 UTC
+"t_recv_connect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/169 Testing: t_recv_transmit
+6/169 Test: t_recv_transmit
+Command: "/mnt/hgfs/labs/build/tests/recv_transmit"
+Directory: /mnt/hgfs/labs/build
+"t_recv_transmit" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_transmit" end time: Feb 18 16:41 UTC
+"t_recv_transmit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/169 Testing: t_recv_window
+7/169 Test: t_recv_window
+Command: "/mnt/hgfs/labs/build/tests/recv_window"
+Directory: /mnt/hgfs/labs/build
+"t_recv_window" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_window" end time: Feb 18 16:41 UTC
+"t_recv_window" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/169 Testing: t_recv_reorder
+8/169 Test: t_recv_reorder
+Command: "/mnt/hgfs/labs/build/tests/recv_reorder"
+Directory: /mnt/hgfs/labs/build
+"t_recv_reorder" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_reorder" end time: Feb 18 16:41 UTC
+"t_recv_reorder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/169 Testing: t_recv_close
+9/169 Test: t_recv_close
+Command: "/mnt/hgfs/labs/build/tests/recv_close"
+Directory: /mnt/hgfs/labs/build
+"t_recv_close" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_close" end time: Feb 18 16:41 UTC
+"t_recv_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/169 Testing: t_recv_special
+10/169 Test: t_recv_special
+Command: "/mnt/hgfs/labs/build/tests/recv_special"
+Directory: /mnt/hgfs/labs/build
+"t_recv_special" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_special" end time: Feb 18 16:41 UTC
+"t_recv_special" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/169 Testing: t_strm_reassem_single
+18/169 Test: t_strm_reassem_single
+Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_single"
+Directory: /mnt/hgfs/labs/build
+"t_strm_reassem_single" start time: Feb 18 16:41 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_single" end time: Feb 18 16:41 UTC
 "t_strm_reassem_single" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +169,14 @@ Test Passed.
 19/169 Test: t_strm_reassem_seq
 Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_seq"
 Directory: /mnt/hgfs/labs/build
-"t_strm_reassem_seq" start time: Feb 01 15:19 UTC
+"t_strm_reassem_seq" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_seq" end time: Feb 01 15:19 UTC
+"t_strm_reassem_seq" end time: Feb 18 16:41 UTC
 "t_strm_reassem_seq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +184,14 @@ Test Passed.
 20/169 Test: t_strm_reassem_dup
 Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_dup"
 Directory: /mnt/hgfs/labs/build
-"t_strm_reassem_dup" start time: Feb 01 15:19 UTC
+"t_strm_reassem_dup" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_dup" end time: Feb 01 15:19 UTC
+"t_strm_reassem_dup" end time: Feb 18 16:41 UTC
 "t_strm_reassem_dup" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +199,14 @@ Test Passed.
 21/169 Test: t_strm_reassem_holes
 Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_holes"
 Directory: /mnt/hgfs/labs/build
-"t_strm_reassem_holes" start time: Feb 01 15:19 UTC
+"t_strm_reassem_holes" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_holes" end time: Feb 01 15:19 UTC
+"t_strm_reassem_holes" end time: Feb 18 16:41 UTC
 "t_strm_reassem_holes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,14 +214,14 @@ Test Passed.
 22/169 Test: t_strm_reassem_many
 Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_many"
 Directory: /mnt/hgfs/labs/build
-"t_strm_reassem_many" start time: Feb 01 15:19 UTC
+"t_strm_reassem_many" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_many" end time: Feb 01 15:19 UTC
+"t_strm_reassem_many" end time: Feb 18 16:41 UTC
 "t_strm_reassem_many" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -79,14 +229,14 @@ Test Passed.
 23/169 Test: t_strm_reassem_overlapping
 Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_overlapping"
 Directory: /mnt/hgfs/labs/build
-"t_strm_reassem_overlapping" start time: Feb 01 15:19 UTC
+"t_strm_reassem_overlapping" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_overlapping" end time: Feb 01 15:19 UTC
+"t_strm_reassem_overlapping" end time: Feb 18 16:41 UTC
 "t_strm_reassem_overlapping" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -94,14 +244,14 @@ Test Passed.
 24/169 Test: t_strm_reassem_win
 Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_win"
 Directory: /mnt/hgfs/labs/build
-"t_strm_reassem_win" start time: Feb 01 15:19 UTC
+"t_strm_reassem_win" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_win" end time: Feb 01 15:19 UTC
+"t_strm_reassem_win" end time: Feb 18 16:41 UTC
 "t_strm_reassem_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -109,14 +259,14 @@ Test Passed.
 25/169 Test: t_strm_reassem_cap
 Command: "/mnt/hgfs/labs/build/tests/fsm_stream_reassembler_cap"
 Directory: /mnt/hgfs/labs/build
-"t_strm_reassem_cap" start time: Feb 01 15:19 UTC
+"t_strm_reassem_cap" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_cap" end time: Feb 01 15:19 UTC
+"t_strm_reassem_cap" end time: Feb 18 16:41 UTC
 "t_strm_reassem_cap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,14 +274,14 @@ Test Passed.
 26/169 Test: t_byte_stream_construction
 Command: "/mnt/hgfs/labs/build/tests/byte_stream_construction"
 Directory: /mnt/hgfs/labs/build
-"t_byte_stream_construction" start time: Feb 01 15:19 UTC
+"t_byte_stream_construction" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_construction" end time: Feb 01 15:19 UTC
+"t_byte_stream_construction" end time: Feb 18 16:41 UTC
 "t_byte_stream_construction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,14 +289,14 @@ Test Passed.
 27/169 Test: t_byte_stream_one_write
 Command: "/mnt/hgfs/labs/build/tests/byte_stream_one_write"
 Directory: /mnt/hgfs/labs/build
-"t_byte_stream_one_write" start time: Feb 01 15:19 UTC
+"t_byte_stream_one_write" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_one_write" end time: Feb 01 15:19 UTC
+"t_byte_stream_one_write" end time: Feb 18 16:41 UTC
 "t_byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -154,14 +304,14 @@ Test Passed.
 28/169 Test: t_byte_stream_two_writes
 Command: "/mnt/hgfs/labs/build/tests/byte_stream_two_writes"
 Directory: /mnt/hgfs/labs/build
-"t_byte_stream_two_writes" start time: Feb 01 15:19 UTC
+"t_byte_stream_two_writes" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_two_writes" end time: Feb 01 15:19 UTC
+"t_byte_stream_two_writes" end time: Feb 18 16:41 UTC
 "t_byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -169,14 +319,14 @@ Test Passed.
 29/169 Test: t_byte_stream_capacity
 Command: "/mnt/hgfs/labs/build/tests/byte_stream_capacity"
 Directory: /mnt/hgfs/labs/build
-"t_byte_stream_capacity" start time: Feb 01 15:19 UTC
+"t_byte_stream_capacity" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.13 sec
+Test time =   0.25 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_capacity" end time: Feb 01 15:19 UTC
+"t_byte_stream_capacity" end time: Feb 18 16:41 UTC
 "t_byte_stream_capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,14 +334,14 @@ Test Passed.
 30/169 Test: t_byte_stream_many_writes
 Command: "/mnt/hgfs/labs/build/tests/byte_stream_many_writes"
 Directory: /mnt/hgfs/labs/build
-"t_byte_stream_many_writes" start time: Feb 01 15:19 UTC
+"t_byte_stream_many_writes" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_many_writes" end time: Feb 01 15:19 UTC
+"t_byte_stream_many_writes" end time: Feb 18 16:41 UTC
 "t_byte_stream_many_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -199,14 +349,14 @@ Test Passed.
 53/169 Test: t_address_dt
 Command: "/mnt/hgfs/labs/build/doctests/address_dt"
 Directory: /mnt/hgfs/labs/build
-"t_address_dt" start time: Feb 01 15:19 UTC
+"t_address_dt" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_address_dt" end time: Feb 01 15:19 UTC
+"t_address_dt" end time: Feb 18 16:41 UTC
 "t_address_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,14 +364,14 @@ Test Passed.
 54/169 Test: t_parser_dt
 Command: "/mnt/hgfs/labs/build/doctests/parser_dt"
 Directory: /mnt/hgfs/labs/build
-"t_parser_dt" start time: Feb 01 15:19 UTC
+"t_parser_dt" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_parser_dt" end time: Feb 01 15:19 UTC
+"t_parser_dt" end time: Feb 18 16:41 UTC
 "t_parser_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -229,15 +379,15 @@ Test Passed.
 55/169 Test: t_socket_dt
 Command: "/mnt/hgfs/labs/build/doctests/socket_dt"
 Directory: /mnt/hgfs/labs/build
-"t_socket_dt" start time: Feb 01 15:19 UTC
+"t_socket_dt" start time: Feb 18 16:41 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_socket_dt" end time: Feb 01 15:19 UTC
+"t_socket_dt" end time: Feb 18 16:41 UTC
 "t_socket_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 01 15:19 UTC
+End testing: Feb 18 16:41 UTC

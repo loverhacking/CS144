@@ -20,6 +20,7 @@
 /mnt/hgfs/labs/build/apps/CMakeFiles/edit_cache.dir
 /mnt/hgfs/labs/build/apps/CMakeFiles/rebuild_cache.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/spongechecks.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/tcp_parser.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_single.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_seq.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/fsm_stream_reassembler_dup.dir
@@ -33,6 +34,16 @@
 /mnt/hgfs/labs/build/tests/CMakeFiles/byte_stream_two_writes.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/byte_stream_capacity.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/byte_stream_many_writes.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/wrapping_integers_cmp.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/wrapping_integers_unwrap.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/wrapping_integers_wrap.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/wrapping_integers_roundtrip.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/recv_connect.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/recv_transmit.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/recv_window.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/recv_reorder.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/recv_close.dir
+/mnt/hgfs/labs/build/tests/CMakeFiles/recv_special.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/test.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/edit_cache.dir
 /mnt/hgfs/labs/build/tests/CMakeFiles/rebuild_cache.dir
