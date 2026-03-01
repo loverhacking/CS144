@@ -608,6 +608,97 @@ recv_special/fast:
 .PHONY : recv_special/fast
 
 #=============================================================================
+# Target rules for targets named send_connect
+
+# Build rule for target.
+send_connect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_connect
+.PHONY : send_connect
+
+# fast build rule for target.
+send_connect/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_connect.dir/build.make tests/CMakeFiles/send_connect.dir/build
+.PHONY : send_connect/fast
+
+#=============================================================================
+# Target rules for targets named send_transmit
+
+# Build rule for target.
+send_transmit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_transmit
+.PHONY : send_transmit
+
+# fast build rule for target.
+send_transmit/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_transmit.dir/build.make tests/CMakeFiles/send_transmit.dir/build
+.PHONY : send_transmit/fast
+
+#=============================================================================
+# Target rules for targets named send_retx
+
+# Build rule for target.
+send_retx: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_retx
+.PHONY : send_retx
+
+# fast build rule for target.
+send_retx/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_retx.dir/build.make tests/CMakeFiles/send_retx.dir/build
+.PHONY : send_retx/fast
+
+#=============================================================================
+# Target rules for targets named send_ack
+
+# Build rule for target.
+send_ack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_ack
+.PHONY : send_ack
+
+# fast build rule for target.
+send_ack/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_ack.dir/build.make tests/CMakeFiles/send_ack.dir/build
+.PHONY : send_ack/fast
+
+#=============================================================================
+# Target rules for targets named send_window
+
+# Build rule for target.
+send_window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_window
+.PHONY : send_window
+
+# fast build rule for target.
+send_window/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_window.dir/build.make tests/CMakeFiles/send_window.dir/build
+.PHONY : send_window/fast
+
+#=============================================================================
+# Target rules for targets named send_close
+
+# Build rule for target.
+send_close: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_close
+.PHONY : send_close
+
+# fast build rule for target.
+send_close/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_close.dir/build.make tests/CMakeFiles/send_close.dir/build
+.PHONY : send_close/fast
+
+#=============================================================================
+# Target rules for targets named send_extra
+
+# Build rule for target.
+send_extra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_extra
+.PHONY : send_extra
+
+# fast build rule for target.
+send_extra/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_extra.dir/build.make tests/CMakeFiles/send_extra.dir/build
+.PHONY : send_extra/fast
+
+#=============================================================================
 # Target rules for targets named address_dt
 
 # Build rule for target.
@@ -686,6 +777,13 @@ help:
 	@echo "... recv_special"
 	@echo "... recv_transmit"
 	@echo "... recv_window"
+	@echo "... send_ack"
+	@echo "... send_close"
+	@echo "... send_connect"
+	@echo "... send_extra"
+	@echo "... send_retx"
+	@echo "... send_transmit"
+	@echo "... send_window"
 	@echo "... socket_dt"
 	@echo "... sponge"
 	@echo "... spongechecks"

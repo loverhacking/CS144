@@ -8,4 +8,4 @@ d516bde8dc327b4c00f985f7473214d8 CMakeFiles/check_lab1
 e10e3325b78c2a593f1464f02de7af9c CMakeFiles/check_lab5
 6a1e92c1d38bd50a195c05eb1ce5cc81 CMakeFiles/check_lab6
 46a7668d2936e195d1b9a73976e82675 CMakeFiles/check_webget
-33797ff36ce24c5884b38d0f0dcb041f CMakeFiles/format
+9b4ae763bcc497aed61573c41cde5b73 CMakeFiles/format

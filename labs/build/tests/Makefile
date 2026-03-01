@@ -476,6 +476,104 @@ recv_special/fast:
 	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special.dir/build.make tests/CMakeFiles/recv_special.dir/build
 .PHONY : recv_special/fast
 
+# Convenience name for target.
+tests/CMakeFiles/send_connect.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_connect.dir/rule
+.PHONY : tests/CMakeFiles/send_connect.dir/rule
+
+# Convenience name for target.
+send_connect: tests/CMakeFiles/send_connect.dir/rule
+.PHONY : send_connect
+
+# fast build rule for target.
+send_connect/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_connect.dir/build.make tests/CMakeFiles/send_connect.dir/build
+.PHONY : send_connect/fast
+
+# Convenience name for target.
+tests/CMakeFiles/send_transmit.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_transmit.dir/rule
+.PHONY : tests/CMakeFiles/send_transmit.dir/rule
+
+# Convenience name for target.
+send_transmit: tests/CMakeFiles/send_transmit.dir/rule
+.PHONY : send_transmit
+
+# fast build rule for target.
+send_transmit/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_transmit.dir/build.make tests/CMakeFiles/send_transmit.dir/build
+.PHONY : send_transmit/fast
+
+# Convenience name for target.
+tests/CMakeFiles/send_retx.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_retx.dir/rule
+.PHONY : tests/CMakeFiles/send_retx.dir/rule
+
+# Convenience name for target.
+send_retx: tests/CMakeFiles/send_retx.dir/rule
+.PHONY : send_retx
+
+# fast build rule for target.
+send_retx/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_retx.dir/build.make tests/CMakeFiles/send_retx.dir/build
+.PHONY : send_retx/fast
+
+# Convenience name for target.
+tests/CMakeFiles/send_ack.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_ack.dir/rule
+.PHONY : tests/CMakeFiles/send_ack.dir/rule
+
+# Convenience name for target.
+send_ack: tests/CMakeFiles/send_ack.dir/rule
+.PHONY : send_ack
+
+# fast build rule for target.
+send_ack/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_ack.dir/build.make tests/CMakeFiles/send_ack.dir/build
+.PHONY : send_ack/fast
+
+# Convenience name for target.
+tests/CMakeFiles/send_window.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_window.dir/rule
+.PHONY : tests/CMakeFiles/send_window.dir/rule
+
+# Convenience name for target.
+send_window: tests/CMakeFiles/send_window.dir/rule
+.PHONY : send_window
+
+# fast build rule for target.
+send_window/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_window.dir/build.make tests/CMakeFiles/send_window.dir/build
+.PHONY : send_window/fast
+
+# Convenience name for target.
+tests/CMakeFiles/send_close.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_close.dir/rule
+.PHONY : tests/CMakeFiles/send_close.dir/rule
+
+# Convenience name for target.
+send_close: tests/CMakeFiles/send_close.dir/rule
+.PHONY : send_close
+
+# fast build rule for target.
+send_close/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_close.dir/build.make tests/CMakeFiles/send_close.dir/build
+.PHONY : send_close/fast
+
+# Convenience name for target.
+tests/CMakeFiles/send_extra.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_extra.dir/rule
+.PHONY : tests/CMakeFiles/send_extra.dir/rule
+
+# Convenience name for target.
+send_extra: tests/CMakeFiles/send_extra.dir/rule
+.PHONY : send_extra
+
+# fast build rule for target.
+send_extra/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_extra.dir/build.make tests/CMakeFiles/send_extra.dir/build
+.PHONY : send_extra/fast
+
 byte_stream_capacity.o: byte_stream_capacity.cc.o
 .PHONY : byte_stream_capacity.o
 
@@ -956,6 +1054,174 @@ recv_window.cc.s:
 	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/recv_window.cc.s
 .PHONY : recv_window.cc.s
 
+send_ack.o: send_ack.cc.o
+.PHONY : send_ack.o
+
+# target to build an object file
+send_ack.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_ack.dir/build.make tests/CMakeFiles/send_ack.dir/send_ack.cc.o
+.PHONY : send_ack.cc.o
+
+send_ack.i: send_ack.cc.i
+.PHONY : send_ack.i
+
+# target to preprocess a source file
+send_ack.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_ack.dir/build.make tests/CMakeFiles/send_ack.dir/send_ack.cc.i
+.PHONY : send_ack.cc.i
+
+send_ack.s: send_ack.cc.s
+.PHONY : send_ack.s
+
+# target to generate assembly for a file
+send_ack.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_ack.dir/build.make tests/CMakeFiles/send_ack.dir/send_ack.cc.s
+.PHONY : send_ack.cc.s
+
+send_close.o: send_close.cc.o
+.PHONY : send_close.o
+
+# target to build an object file
+send_close.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_close.dir/build.make tests/CMakeFiles/send_close.dir/send_close.cc.o
+.PHONY : send_close.cc.o
+
+send_close.i: send_close.cc.i
+.PHONY : send_close.i
+
+# target to preprocess a source file
+send_close.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_close.dir/build.make tests/CMakeFiles/send_close.dir/send_close.cc.i
+.PHONY : send_close.cc.i
+
+send_close.s: send_close.cc.s
+.PHONY : send_close.s
+
+# target to generate assembly for a file
+send_close.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_close.dir/build.make tests/CMakeFiles/send_close.dir/send_close.cc.s
+.PHONY : send_close.cc.s
+
+send_connect.o: send_connect.cc.o
+.PHONY : send_connect.o
+
+# target to build an object file
+send_connect.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_connect.dir/build.make tests/CMakeFiles/send_connect.dir/send_connect.cc.o
+.PHONY : send_connect.cc.o
+
+send_connect.i: send_connect.cc.i
+.PHONY : send_connect.i
+
+# target to preprocess a source file
+send_connect.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_connect.dir/build.make tests/CMakeFiles/send_connect.dir/send_connect.cc.i
+.PHONY : send_connect.cc.i
+
+send_connect.s: send_connect.cc.s
+.PHONY : send_connect.s
+
+# target to generate assembly for a file
+send_connect.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_connect.dir/build.make tests/CMakeFiles/send_connect.dir/send_connect.cc.s
+.PHONY : send_connect.cc.s
+
+send_extra.o: send_extra.cc.o
+.PHONY : send_extra.o
+
+# target to build an object file
+send_extra.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_extra.dir/build.make tests/CMakeFiles/send_extra.dir/send_extra.cc.o
+.PHONY : send_extra.cc.o
+
+send_extra.i: send_extra.cc.i
+.PHONY : send_extra.i
+
+# target to preprocess a source file
+send_extra.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_extra.dir/build.make tests/CMakeFiles/send_extra.dir/send_extra.cc.i
+.PHONY : send_extra.cc.i
+
+send_extra.s: send_extra.cc.s
+.PHONY : send_extra.s
+
+# target to generate assembly for a file
+send_extra.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_extra.dir/build.make tests/CMakeFiles/send_extra.dir/send_extra.cc.s
+.PHONY : send_extra.cc.s
+
+send_retx.o: send_retx.cc.o
+.PHONY : send_retx.o
+
+# target to build an object file
+send_retx.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_retx.dir/build.make tests/CMakeFiles/send_retx.dir/send_retx.cc.o
+.PHONY : send_retx.cc.o
+
+send_retx.i: send_retx.cc.i
+.PHONY : send_retx.i
+
+# target to preprocess a source file
+send_retx.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_retx.dir/build.make tests/CMakeFiles/send_retx.dir/send_retx.cc.i
+.PHONY : send_retx.cc.i
+
+send_retx.s: send_retx.cc.s
+.PHONY : send_retx.s
+
+# target to generate assembly for a file
+send_retx.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_retx.dir/build.make tests/CMakeFiles/send_retx.dir/send_retx.cc.s
+.PHONY : send_retx.cc.s
+
+send_transmit.o: send_transmit.cc.o
+.PHONY : send_transmit.o
+
+# target to build an object file
+send_transmit.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_transmit.dir/build.make tests/CMakeFiles/send_transmit.dir/send_transmit.cc.o
+.PHONY : send_transmit.cc.o
+
+send_transmit.i: send_transmit.cc.i
+.PHONY : send_transmit.i
+
+# target to preprocess a source file
+send_transmit.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_transmit.dir/build.make tests/CMakeFiles/send_transmit.dir/send_transmit.cc.i
+.PHONY : send_transmit.cc.i
+
+send_transmit.s: send_transmit.cc.s
+.PHONY : send_transmit.s
+
+# target to generate assembly for a file
+send_transmit.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_transmit.dir/build.make tests/CMakeFiles/send_transmit.dir/send_transmit.cc.s
+.PHONY : send_transmit.cc.s
+
+send_window.o: send_window.cc.o
+.PHONY : send_window.o
+
+# target to build an object file
+send_window.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_window.dir/build.make tests/CMakeFiles/send_window.dir/send_window.cc.o
+.PHONY : send_window.cc.o
+
+send_window.i: send_window.cc.i
+.PHONY : send_window.i
+
+# target to preprocess a source file
+send_window.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_window.dir/build.make tests/CMakeFiles/send_window.dir/send_window.cc.i
+.PHONY : send_window.cc.i
+
+send_window.s: send_window.cc.s
+.PHONY : send_window.s
+
+# target to generate assembly for a file
+send_window.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_window.dir/build.make tests/CMakeFiles/send_window.dir/send_window.cc.s
+.PHONY : send_window.cc.s
+
 tcp_parser.o: tcp_parser.cc.o
 .PHONY : tcp_parser.o
 
@@ -1104,6 +1370,13 @@ help:
 	@echo "... recv_special"
 	@echo "... recv_transmit"
 	@echo "... recv_window"
+	@echo "... send_ack"
+	@echo "... send_close"
+	@echo "... send_connect"
+	@echo "... send_extra"
+	@echo "... send_retx"
+	@echo "... send_transmit"
+	@echo "... send_window"
 	@echo "... spongechecks"
 	@echo "... tcp_parser"
 	@echo "... wrapping_integers_cmp"
@@ -1170,6 +1443,27 @@ help:
 	@echo "... recv_window.o"
 	@echo "... recv_window.i"
 	@echo "... recv_window.s"
+	@echo "... send_ack.o"
+	@echo "... send_ack.i"
+	@echo "... send_ack.s"
+	@echo "... send_close.o"
+	@echo "... send_close.i"
+	@echo "... send_close.s"
+	@echo "... send_connect.o"
+	@echo "... send_connect.i"
+	@echo "... send_connect.s"
+	@echo "... send_extra.o"
+	@echo "... send_extra.i"
+	@echo "... send_extra.s"
+	@echo "... send_retx.o"
+	@echo "... send_retx.i"
+	@echo "... send_retx.s"
+	@echo "... send_transmit.o"
+	@echo "... send_transmit.i"
+	@echo "... send_transmit.s"
+	@echo "... send_window.o"
+	@echo "... send_window.i"
+	@echo "... send_window.s"
 	@echo "... tcp_parser.o"
 	@echo "... tcp_parser.i"
 	@echo "... tcp_parser.s"

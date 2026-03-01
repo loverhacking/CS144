@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o.d"
   "CMakeFiles/sponge.dir/tcp_receiver.cc.o"
   "CMakeFiles/sponge.dir/tcp_receiver.cc.o.d"
+  "CMakeFiles/sponge.dir/tcp_sender.cc.o"
+  "CMakeFiles/sponge.dir/tcp_sender.cc.o.d"
   "CMakeFiles/sponge.dir/util/address.cc.o"
   "CMakeFiles/sponge.dir/util/address.cc.o.d"
   "CMakeFiles/sponge.dir/util/buffer.cc.o"

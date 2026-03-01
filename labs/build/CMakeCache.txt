@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//clang-format executable name
-CLANG_FORMAT:STRING=clang-format-18
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
