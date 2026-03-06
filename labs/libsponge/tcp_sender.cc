@@ -55,7 +55,8 @@ void TCPSender::fill_window() {
     while (available > 0) {
         size_t payload_size = min({available, static_cast<size_t>(TCPConfig::MAX_PAYLOAD_SIZE), _stream.buffer_size()});
         bool send_fin = false;
-        if (_stream.input_ended() && !_fin_sent) {
+        // Check if the stream has ended and if we are extracting the last remaining bytes from the buffer.
+        if (_stream.input_ended() && !_fin_sent && payload_size == _stream.buffer_size()) {
             send_fin = (payload_size + 1 <= available);  // FIN occupies one sequence number
         }
 

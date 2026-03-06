@@ -54,9 +54,9 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
     size_t startPos = max(index, _nextIndex);
     size_t endPos = min(index + data.size(), _nextIndex + effective_capacity);
 
+	size_t bufferIndex = startPos % _capacity;
     // Copy relevant data to buffer
     for (size_t i = startPos; i < endPos; i++) {
-        size_t bufferIndex = i % _capacity;
         // If the position is not valid, mark it as valid and add the data to the buffer
         // and increment the unassembled bytes
         if (!_valid[bufferIndex]) {
@@ -64,22 +64,35 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
             _buffer[bufferIndex] = data[i - index];
             _unassembledBytes++;
         }
+		bufferIndex++;
+		if (bufferIndex == _capacity) {
+            bufferIndex = 0;
+		}
     }
 
-    string assembled;
-    size_t bufferIndex = _nextIndex % _capacity;
+	string assembled;
+    bufferIndex = _nextIndex % _capacity;
     size_t availableBytes = _output.remaining_capacity();
 
+    // pre-allocate space for the assembled string to avoid multiple reallocations
+    if (availableBytes > 0) {
+        assembled.reserve(min(availableBytes, _unassembledBytes));
+    }
+
     // Assemble contiguous bytes
-    while (_valid[bufferIndex] && availableBytes > 0) {
+    while (availableBytes > 0 && _valid[bufferIndex]) {
         assembled.push_back(_buffer[bufferIndex]);
         _valid[bufferIndex] = false;
         _nextIndex++;
         _unassembledBytes--;
-        bufferIndex = _nextIndex % _capacity;
-
         availableBytes--;
+
+        bufferIndex++;
+        if (bufferIndex == _capacity) {
+            bufferIndex = 0;
+        }
     }
+
 
     // Write the assembled bytes to the output stream
     if (!assembled.empty()) {

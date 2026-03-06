@@ -17,9 +17,14 @@ ByteStream::ByteStream(const size_t capacity)
       _write_bytes(0), _read_bytes(0), _size(0), _input_ended(false) {}
 
 size_t ByteStream::write(const string &data) {
-  int n = min(data.size(), remaining_capacity());
-  for (int i = 0; i < n; i++) {
-    _buffer[(_tail + i) % _capacity] = data[i];
+  size_t n = min(data.size(), remaining_capacity());
+  // First block: How much can be written from _tail to the end of the buffer?
+  size_t first_chunk = min(n, _capacity - _tail);
+  std::copy(data.begin(), data.begin() + first_chunk, _buffer.begin() + _tail);
+
+  // Second block: If there's still more to write, wrap around to the beginning of the buffer
+  if (first_chunk < n) {
+    std::copy(data.begin() + first_chunk, data.begin() + n, _buffer.begin());
   }
   _tail = (_tail + n) % _capacity;
   _write_bytes += n;
@@ -29,10 +34,17 @@ size_t ByteStream::write(const string &data) {
 
 //! \param[in] len bytes will be copied from the output side of the buffer
 string ByteStream::peek_output(const size_t len) const {
+  size_t n = min(len, buffer_size());
   string s;
-  int n = min(len, buffer_size());
-  for (int i = 0; i < n; i++) {
-    s.push_back(_buffer[(_head + i) % _capacity]);
+  s.resize(n); // allocate space in advance!
+
+  // First block: How much can be read from _tail to the end of the buffer?
+  size_t first_chunk = min(n, _capacity - _head);
+  std::copy(_buffer.begin() + _head, _buffer.begin() + _head + first_chunk, s.begin());
+
+  // Second block: If there's still more to read, wrap around to the beginning of the buffer
+  if (first_chunk < n) {
+    std::copy(_buffer.begin(), _buffer.begin() + (n - first_chunk), s.begin() + first_chunk);
   }
   return s;
 }

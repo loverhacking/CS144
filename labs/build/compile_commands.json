@@ -13,9 +13,39 @@
 },
 {
   "directory": "/mnt/hgfs/labs/build/libsponge",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_connection.cc.o -c /mnt/hgfs/labs/libsponge/tcp_connection.cc",
+  "file": "/mnt/hgfs/labs/libsponge/tcp_connection.cc",
+  "output": "libsponge/CMakeFiles/sponge.dir/tcp_connection.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/libsponge",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/fd_adapter.cc.o -c /mnt/hgfs/labs/libsponge/tcp_helpers/fd_adapter.cc",
+  "file": "/mnt/hgfs/labs/libsponge/tcp_helpers/fd_adapter.cc",
+  "output": "libsponge/CMakeFiles/sponge.dir/tcp_helpers/fd_adapter.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/libsponge",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/ipv4_datagram.cc.o -c /mnt/hgfs/labs/libsponge/tcp_helpers/ipv4_datagram.cc",
+  "file": "/mnt/hgfs/labs/libsponge/tcp_helpers/ipv4_datagram.cc",
+  "output": "libsponge/CMakeFiles/sponge.dir/tcp_helpers/ipv4_datagram.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/libsponge",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/ipv4_header.cc.o -c /mnt/hgfs/labs/libsponge/tcp_helpers/ipv4_header.cc",
+  "file": "/mnt/hgfs/labs/libsponge/tcp_helpers/ipv4_header.cc",
+  "output": "libsponge/CMakeFiles/sponge.dir/tcp_helpers/ipv4_header.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/libsponge",
   "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o -c /mnt/hgfs/labs/libsponge/tcp_helpers/tcp_header.cc",
   "file": "/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_header.cc",
   "output": "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/libsponge",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/tcp_over_ip.cc.o -c /mnt/hgfs/labs/libsponge/tcp_helpers/tcp_over_ip.cc",
+  "file": "/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_over_ip.cc",
+  "output": "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_over_ip.cc.o"
 },
 {
   "directory": "/mnt/hgfs/labs/build/libsponge",
@@ -25,9 +55,21 @@
 },
 {
   "directory": "/mnt/hgfs/labs/build/libsponge",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/tcp_sponge_socket.cc.o -c /mnt/hgfs/labs/libsponge/tcp_helpers/tcp_sponge_socket.cc",
+  "file": "/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_sponge_socket.cc",
+  "output": "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_sponge_socket.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/libsponge",
   "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o -c /mnt/hgfs/labs/libsponge/tcp_helpers/tcp_state.cc",
   "file": "/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_state.cc",
   "output": "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/libsponge",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/tuntap_adapter.cc.o -c /mnt/hgfs/labs/libsponge/tcp_helpers/tuntap_adapter.cc",
+  "file": "/mnt/hgfs/labs/libsponge/tcp_helpers/tuntap_adapter.cc",
+  "output": "libsponge/CMakeFiles/sponge.dir/tcp_helpers/tuntap_adapter.cc.o"
 },
 {
   "directory": "/mnt/hgfs/labs/build/libsponge",
@@ -97,9 +139,63 @@
 },
 {
   "directory": "/mnt/hgfs/labs/build/apps",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o -c /mnt/hgfs/labs/apps/bidirectional_stream_copy.cc",
+  "file": "/mnt/hgfs/labs/apps/bidirectional_stream_copy.cc",
+  "output": "apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/apps",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/udp_tcpdump.dir/udp_tcpdump.cc.o -c /mnt/hgfs/labs/apps/udp_tcpdump.cc",
+  "file": "/mnt/hgfs/labs/apps/udp_tcpdump.cc",
+  "output": "apps/CMakeFiles/udp_tcpdump.dir/udp_tcpdump.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/apps",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tcp_native.dir/tcp_native.cc.o -c /mnt/hgfs/labs/apps/tcp_native.cc",
+  "file": "/mnt/hgfs/labs/apps/tcp_native.cc",
+  "output": "apps/CMakeFiles/tcp_native.dir/tcp_native.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/apps",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tun.dir/tun.cc.o -c /mnt/hgfs/labs/apps/tun.cc",
+  "file": "/mnt/hgfs/labs/apps/tun.cc",
+  "output": "apps/CMakeFiles/tun.dir/tun.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/apps",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tcp_udp.dir/tcp_udp.cc.o -c /mnt/hgfs/labs/apps/tcp_udp.cc",
+  "file": "/mnt/hgfs/labs/apps/tcp_udp.cc",
+  "output": "apps/CMakeFiles/tcp_udp.dir/tcp_udp.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/apps",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tcp_ipv4.dir/tcp_ipv4.cc.o -c /mnt/hgfs/labs/apps/tcp_ipv4.cc",
+  "file": "/mnt/hgfs/labs/apps/tcp_ipv4.cc",
+  "output": "apps/CMakeFiles/tcp_ipv4.dir/tcp_ipv4.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/apps",
   "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/webget.dir/webget.cc.o -c /mnt/hgfs/labs/apps/webget.cc",
   "file": "/mnt/hgfs/labs/apps/webget.cc",
   "output": "apps/CMakeFiles/webget.dir/webget.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/apps",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tcp_benchmark.dir/tcp_benchmark.cc.o -c /mnt/hgfs/labs/apps/tcp_benchmark.cc",
+  "file": "/mnt/hgfs/labs/apps/tcp_benchmark.cc",
+  "output": "apps/CMakeFiles/tcp_benchmark.dir/tcp_benchmark.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o -c /mnt/hgfs/labs/tests/send_equivalence_checker.cc",
+  "file": "/mnt/hgfs/labs/tests/send_equivalence_checker.cc",
+  "output": "tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o -c /mnt/hgfs/labs/tests/tcp_fsm_test_harness.cc",
+  "file": "/mnt/hgfs/labs/tests/tcp_fsm_test_harness.cc",
+  "output": "tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o"
 },
 {
   "directory": "/mnt/hgfs/labs/build/tests",
@@ -112,6 +208,42 @@
   "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tcp_parser.dir/tcp_parser.cc.o -c /mnt/hgfs/labs/tests/tcp_parser.cc",
   "file": "/mnt/hgfs/labs/tests/tcp_parser.cc",
   "output": "tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/ipv4_parser.dir/ipv4_parser.cc.o -c /mnt/hgfs/labs/tests/ipv4_parser.cc",
+  "file": "/mnt/hgfs/labs/tests/ipv4_parser.cc",
+  "output": "tests/CMakeFiles/ipv4_parser.dir/ipv4_parser.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_active_close.dir/fsm_active_close.cc.o -c /mnt/hgfs/labs/tests/fsm_active_close.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_active_close.cc",
+  "output": "tests/CMakeFiles/fsm_active_close.dir/fsm_active_close.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_passive_close.dir/fsm_passive_close.cc.o -c /mnt/hgfs/labs/tests/fsm_passive_close.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_passive_close.cc",
+  "output": "tests/CMakeFiles/fsm_passive_close.dir/fsm_passive_close.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_ack_rst_relaxed.dir/fsm_ack_rst_relaxed.cc.o -c /mnt/hgfs/labs/tests/fsm_ack_rst_relaxed.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_ack_rst_relaxed.cc",
+  "output": "tests/CMakeFiles/fsm_ack_rst_relaxed.dir/fsm_ack_rst_relaxed.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_ack_rst_win_relaxed.dir/fsm_ack_rst_win_relaxed.cc.o -c /mnt/hgfs/labs/tests/fsm_ack_rst_win_relaxed.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_ack_rst_win_relaxed.cc",
+  "output": "tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/fsm_ack_rst_win_relaxed.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_stream_reassembler_cap.dir/fsm_stream_reassembler_cap.cc.o -c /mnt/hgfs/labs/tests/fsm_stream_reassembler_cap.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_stream_reassembler_cap.cc",
+  "output": "tests/CMakeFiles/fsm_stream_reassembler_cap.dir/fsm_stream_reassembler_cap.cc.o"
 },
 {
   "directory": "/mnt/hgfs/labs/build/tests",
@@ -157,9 +289,75 @@
 },
 {
   "directory": "/mnt/hgfs/labs/build/tests",
-  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_stream_reassembler_cap.dir/fsm_stream_reassembler_cap.cc.o -c /mnt/hgfs/labs/tests/fsm_stream_reassembler_cap.cc",
-  "file": "/mnt/hgfs/labs/tests/fsm_stream_reassembler_cap.cc",
-  "output": "tests/CMakeFiles/fsm_stream_reassembler_cap.dir/fsm_stream_reassembler_cap.cc.o"
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_connect_relaxed.dir/fsm_connect_relaxed.cc.o -c /mnt/hgfs/labs/tests/fsm_connect_relaxed.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_connect_relaxed.cc",
+  "output": "tests/CMakeFiles/fsm_connect_relaxed.dir/fsm_connect_relaxed.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_listen_relaxed.dir/fsm_listen_relaxed.cc.o -c /mnt/hgfs/labs/tests/fsm_listen_relaxed.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_listen_relaxed.cc",
+  "output": "tests/CMakeFiles/fsm_listen_relaxed.dir/fsm_listen_relaxed.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_reorder.dir/fsm_reorder.cc.o -c /mnt/hgfs/labs/tests/fsm_reorder.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_reorder.cc",
+  "output": "tests/CMakeFiles/fsm_reorder.dir/fsm_reorder.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_loopback.dir/fsm_loopback.cc.o -c /mnt/hgfs/labs/tests/fsm_loopback.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_loopback.cc",
+  "output": "tests/CMakeFiles/fsm_loopback.dir/fsm_loopback.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_loopback_win.dir/fsm_loopback_win.cc.o -c /mnt/hgfs/labs/tests/fsm_loopback_win.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_loopback_win.cc",
+  "output": "tests/CMakeFiles/fsm_loopback_win.dir/fsm_loopback_win.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_retx_relaxed.dir/fsm_retx_relaxed.cc.o -c /mnt/hgfs/labs/tests/fsm_retx_relaxed.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_retx_relaxed.cc",
+  "output": "tests/CMakeFiles/fsm_retx_relaxed.dir/fsm_retx_relaxed.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_retx_win.dir/fsm_retx_win.cc.o -c /mnt/hgfs/labs/tests/fsm_retx_win.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_retx_win.cc",
+  "output": "tests/CMakeFiles/fsm_retx_win.dir/fsm_retx_win.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/fsm_winsize.dir/fsm_winsize.cc.o -c /mnt/hgfs/labs/tests/fsm_winsize.cc",
+  "file": "/mnt/hgfs/labs/tests/fsm_winsize.cc",
+  "output": "tests/CMakeFiles/fsm_winsize.dir/fsm_winsize.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o -c /mnt/hgfs/labs/tests/wrapping_integers_cmp.cc",
+  "file": "/mnt/hgfs/labs/tests/wrapping_integers_cmp.cc",
+  "output": "tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o -c /mnt/hgfs/labs/tests/wrapping_integers_unwrap.cc",
+  "file": "/mnt/hgfs/labs/tests/wrapping_integers_unwrap.cc",
+  "output": "tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o -c /mnt/hgfs/labs/tests/wrapping_integers_wrap.cc",
+  "file": "/mnt/hgfs/labs/tests/wrapping_integers_wrap.cc",
+  "output": "tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/tests",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o -c /mnt/hgfs/labs/tests/wrapping_integers_roundtrip.cc",
+  "file": "/mnt/hgfs/labs/tests/wrapping_integers_roundtrip.cc",
+  "output": "tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o"
 },
 {
   "directory": "/mnt/hgfs/labs/build/tests",
@@ -190,30 +388,6 @@
   "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o -c /mnt/hgfs/labs/tests/byte_stream_many_writes.cc",
   "file": "/mnt/hgfs/labs/tests/byte_stream_many_writes.cc",
   "output": "tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o"
-},
-{
-  "directory": "/mnt/hgfs/labs/build/tests",
-  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o -c /mnt/hgfs/labs/tests/wrapping_integers_cmp.cc",
-  "file": "/mnt/hgfs/labs/tests/wrapping_integers_cmp.cc",
-  "output": "tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o"
-},
-{
-  "directory": "/mnt/hgfs/labs/build/tests",
-  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o -c /mnt/hgfs/labs/tests/wrapping_integers_unwrap.cc",
-  "file": "/mnt/hgfs/labs/tests/wrapping_integers_unwrap.cc",
-  "output": "tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o"
-},
-{
-  "directory": "/mnt/hgfs/labs/build/tests",
-  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o -c /mnt/hgfs/labs/tests/wrapping_integers_wrap.cc",
-  "file": "/mnt/hgfs/labs/tests/wrapping_integers_wrap.cc",
-  "output": "tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o"
-},
-{
-  "directory": "/mnt/hgfs/labs/build/tests",
-  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o -c /mnt/hgfs/labs/tests/wrapping_integers_roundtrip.cc",
-  "file": "/mnt/hgfs/labs/tests/wrapping_integers_roundtrip.cc",
-  "output": "tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o"
 },
 {
   "directory": "/mnt/hgfs/labs/build/tests",

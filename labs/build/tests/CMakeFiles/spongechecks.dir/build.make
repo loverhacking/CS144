@@ -69,10 +69,38 @@ include tests/CMakeFiles/spongechecks.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/spongechecks.dir/flags.make
 
+tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o: tests/CMakeFiles/spongechecks.dir/flags.make
+tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o: /mnt/hgfs/labs/tests/send_equivalence_checker.cc
+tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o: tests/CMakeFiles/spongechecks.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o"
+	cd /mnt/hgfs/labs/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o -MF CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o.d -o CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o -c /mnt/hgfs/labs/tests/send_equivalence_checker.cc
+
+tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.i"
+	cd /mnt/hgfs/labs/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/labs/tests/send_equivalence_checker.cc > CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.i
+
+tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.s"
+	cd /mnt/hgfs/labs/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/labs/tests/send_equivalence_checker.cc -o CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.s
+
+tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/flags.make
+tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o: /mnt/hgfs/labs/tests/tcp_fsm_test_harness.cc
+tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o"
+	cd /mnt/hgfs/labs/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o -MF CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o.d -o CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o -c /mnt/hgfs/labs/tests/tcp_fsm_test_harness.cc
+
+tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.i"
+	cd /mnt/hgfs/labs/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/labs/tests/tcp_fsm_test_harness.cc > CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.i
+
+tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.s"
+	cd /mnt/hgfs/labs/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/labs/tests/tcp_fsm_test_harness.cc -o CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.s
+
 tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/flags.make
 tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: /mnt/hgfs/labs/tests/byte_stream_test_harness.cc
 tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o"
 	cd /mnt/hgfs/labs/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -MF CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o.d -o CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -c /mnt/hgfs/labs/tests/byte_stream_test_harness.cc
 
 tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.i: cmake_force
@@ -85,15 +113,19 @@ tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.s: cmake_force
 
 # Object files for target spongechecks
 spongechecks_OBJECTS = \
+"CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o" \
+"CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o" \
 "CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o"
 
 # External object files for target spongechecks
 spongechecks_EXTERNAL_OBJECTS =
 
+tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o
+tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o
 tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o
 tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/build.make
 tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/hgfs/labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libspongechecks.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/hgfs/labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libspongechecks.a"
 	cd /mnt/hgfs/labs/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/spongechecks.dir/cmake_clean_target.cmake
 	cd /mnt/hgfs/labs/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spongechecks.dir/link.txt --verbose=$(VERBOSE)
 

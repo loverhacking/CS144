@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o"
   "CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o.d"
+  "CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o"
+  "CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o.d"
+  "CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o"
+  "CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o.d"
   "libspongechecks.a"
   "libspongechecks.pdb"
 )
