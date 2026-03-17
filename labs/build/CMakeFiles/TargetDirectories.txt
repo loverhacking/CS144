@@ -24,6 +24,7 @@
 /mnt/hgfs/labs/build/apps/CMakeFiles/tcp_ip_ethernet.dir
 /mnt/hgfs/labs/build/apps/CMakeFiles/webget.dir
 /mnt/hgfs/labs/build/apps/CMakeFiles/tcp_benchmark.dir
+/mnt/hgfs/labs/build/apps/CMakeFiles/network_simulator.dir
 /mnt/hgfs/labs/build/apps/CMakeFiles/test.dir
 /mnt/hgfs/labs/build/apps/CMakeFiles/edit_cache.dir
 /mnt/hgfs/labs/build/apps/CMakeFiles/rebuild_cache.dir

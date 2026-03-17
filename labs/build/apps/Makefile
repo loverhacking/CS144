@@ -252,6 +252,20 @@ tcp_benchmark/fast:
 	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_benchmark.dir/build.make apps/CMakeFiles/tcp_benchmark.dir/build
 .PHONY : tcp_benchmark/fast
 
+# Convenience name for target.
+apps/CMakeFiles/network_simulator.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/network_simulator.dir/rule
+.PHONY : apps/CMakeFiles/network_simulator.dir/rule
+
+# Convenience name for target.
+network_simulator: apps/CMakeFiles/network_simulator.dir/rule
+.PHONY : network_simulator
+
+# fast build rule for target.
+network_simulator/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/build
+.PHONY : network_simulator/fast
+
 bidirectional_stream_copy.o: bidirectional_stream_copy.cc.o
 .PHONY : bidirectional_stream_copy.o
 
@@ -275,6 +289,30 @@ bidirectional_stream_copy.s: bidirectional_stream_copy.cc.s
 bidirectional_stream_copy.cc.s:
 	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/stream_copy.dir/build.make apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.s
 .PHONY : bidirectional_stream_copy.cc.s
+
+network_simulator.o: network_simulator.cc.o
+.PHONY : network_simulator.o
+
+# target to build an object file
+network_simulator.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/network_simulator.cc.o
+.PHONY : network_simulator.cc.o
+
+network_simulator.i: network_simulator.cc.i
+.PHONY : network_simulator.i
+
+# target to preprocess a source file
+network_simulator.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/network_simulator.cc.i
+.PHONY : network_simulator.cc.i
+
+network_simulator.s: network_simulator.cc.s
+.PHONY : network_simulator.s
+
+# target to generate assembly for a file
+network_simulator.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/network_simulator.cc.s
+.PHONY : network_simulator.cc.s
 
 tcp_benchmark.o: tcp_benchmark.cc.o
 .PHONY : tcp_benchmark.o
@@ -477,6 +515,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... network_simulator"
 	@echo "... stream_copy"
 	@echo "... tcp_benchmark"
 	@echo "... tcp_ip_ethernet"
@@ -489,6 +528,9 @@ help:
 	@echo "... bidirectional_stream_copy.o"
 	@echo "... bidirectional_stream_copy.i"
 	@echo "... bidirectional_stream_copy.s"
+	@echo "... network_simulator.o"
+	@echo "... network_simulator.i"
+	@echo "... network_simulator.s"
 	@echo "... tcp_benchmark.o"
 	@echo "... tcp_benchmark.i"
 	@echo "... tcp_benchmark.s"

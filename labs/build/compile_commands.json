@@ -13,6 +13,12 @@
 },
 {
   "directory": "/mnt/hgfs/labs/build/libsponge",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/router.cc.o -c /mnt/hgfs/labs/libsponge/router.cc",
+  "file": "/mnt/hgfs/labs/libsponge/router.cc",
+  "output": "libsponge/CMakeFiles/sponge.dir/router.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/libsponge",
   "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sponge.dir/stream_reassembler.cc.o -c /mnt/hgfs/labs/libsponge/stream_reassembler.cc",
   "file": "/mnt/hgfs/labs/libsponge/stream_reassembler.cc",
   "output": "libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o"
@@ -214,6 +220,12 @@
   "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tcp_benchmark.dir/tcp_benchmark.cc.o -c /mnt/hgfs/labs/apps/tcp_benchmark.cc",
   "file": "/mnt/hgfs/labs/apps/tcp_benchmark.cc",
   "output": "apps/CMakeFiles/tcp_benchmark.dir/tcp_benchmark.cc.o"
+},
+{
+  "directory": "/mnt/hgfs/labs/build/apps",
+  "command": "/usr/bin/c++  -I/mnt/hgfs/labs/libsponge/util -I/mnt/hgfs/labs/libsponge/tcp_helpers -I/mnt/hgfs/labs/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/network_simulator.dir/network_simulator.cc.o -c /mnt/hgfs/labs/apps/network_simulator.cc",
+  "file": "/mnt/hgfs/labs/apps/network_simulator.cc",
+  "output": "apps/CMakeFiles/network_simulator.dir/network_simulator.cc.o"
 },
 {
   "directory": "/mnt/hgfs/labs/build/tests",
