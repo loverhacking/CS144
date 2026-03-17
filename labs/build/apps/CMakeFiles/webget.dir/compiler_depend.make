@@ -3,8 +3,11 @@
 
 apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
   /mnt/hgfs/labs/libsponge/byte_stream.hh \
+  /mnt/hgfs/labs/libsponge/network_interface.hh \
   /mnt/hgfs/labs/libsponge/stream_reassembler.hh \
   /mnt/hgfs/labs/libsponge/tcp_connection.hh \
+  /mnt/hgfs/labs/libsponge/tcp_helpers/ethernet_frame.hh \
+  /mnt/hgfs/labs/libsponge/tcp_helpers/ethernet_header.hh \
   /mnt/hgfs/labs/libsponge/tcp_helpers/fd_adapter.hh \
   /mnt/hgfs/labs/libsponge/tcp_helpers/ipv4_datagram.hh \
   /mnt/hgfs/labs/libsponge/tcp_helpers/ipv4_header.hh \
@@ -249,6 +252,7 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
@@ -320,6 +324,7 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
   /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
   /usr/include/ctype.h \
@@ -377,6 +382,8 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 /usr/include/endian.h:
 
 /usr/include/ctype.h:
+
+/usr/include/c++/13/unordered_set:
 
 /usr/include/c++/13/typeinfo:
 
@@ -454,7 +461,13 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/c++/13/cstddef:
 
-/usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h:
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/compare:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/c++/13/cerrno:
 
 /usr/include/time.h:
 
@@ -516,10 +529,6 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h:
 
-/usr/include/aarch64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/aarch64-linux-gnu/asm/errno.h:
-
 /mnt/hgfs/labs/libsponge/tcp_helpers/tcp_header.hh:
 
 /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h:
@@ -543,8 +552,6 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 /usr/include/aarch64-linux-gnu/bits/stdlib.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/c++allocator.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
 
@@ -588,15 +595,9 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/aarch64-linux-gnu/asm/socket.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/aarch64-linux-gnu/bits/setjmp.h:
-
-/usr/include/aarch64-linux-gnu/asm/posix_types.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
+/usr/include/c++/13/bits/locale_facets.h:
 
 /mnt/hgfs/labs/libsponge/util/tun.hh:
 
@@ -626,6 +627,8 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /mnt/hgfs/labs/libsponge/util/eventloop.hh:
 
+/mnt/hgfs/labs/libsponge/tcp_helpers/ethernet_frame.hh:
+
 /usr/include/c++/13/ext/aligned_buffer.h:
 
 /mnt/hgfs/labs/libsponge/byte_stream.hh:
@@ -634,19 +637,23 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /mnt/hgfs/labs/libsponge/tcp_helpers/tcp_segment.hh:
 
+/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/rpc/netdb.h:
+
+/mnt/hgfs/labs/libsponge/util/address.hh:
+
+/mnt/hgfs/labs/libsponge/tcp_sender.hh:
+
+/mnt/hgfs/labs/libsponge/tcp_helpers/ipv4_header.hh:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+
 /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/aarch64-linux-gnu/bits/select.h:
-
-/usr/include/c++/13/bits/atomic_base.h:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/mnt/hgfs/labs/libsponge/stream_reassembler.hh:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h:
 
@@ -661,6 +668,34 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 /usr/include/c++/13/cwchar:
 
 /usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/aarch64-linux-gnu/asm/errno.h:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/mnt/hgfs/labs/libsponge/tcp_helpers/ethernet_header.hh:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/select.h:
+
+/usr/include/c++/13/bits/atomic_base.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/mnt/hgfs/labs/libsponge/stream_reassembler.hh:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/usr/include/aarch64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/asm-generic/errno-base.h:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls.h:
 
@@ -678,30 +713,6 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
-/mnt/hgfs/labs/libsponge/tcp_helpers/ipv4_header.hh:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/c++/13/pstl/execution_defs.h:
-
-/usr/include/aarch64-linux-gnu/bits/wordsize.h:
-
-/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_config.hh:
-
-/mnt/hgfs/labs/libsponge/tcp_helpers/tuntap_adapter.hh:
-
-/usr/include/c++/13/bits/stl_numeric.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/rpc/netdb.h:
-
-/mnt/hgfs/labs/libsponge/util/address.hh:
-
-/mnt/hgfs/labs/libsponge/tcp_helpers/fd_adapter.hh:
-
 /usr/include/aarch64-linux-gnu/gnu/stubs.h:
 
 /usr/include/aarch64-linux-gnu/bits/math-vector.h:
@@ -710,9 +721,31 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/mnt/hgfs/labs/libsponge/tcp_sender.hh:
+/mnt/hgfs/labs/libsponge/tcp_helpers/fd_adapter.hh:
 
-/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/setjmp.h:
+
+/usr/include/aarch64-linux-gnu/asm/posix_types.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/aarch64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/13/list:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/opt_random.h:
+
+/mnt/hgfs/labs/libsponge/tcp_helpers/tcp_config.hh:
+
+/mnt/hgfs/labs/libsponge/tcp_helpers/tuntap_adapter.hh:
+
+/usr/include/c++/13/bits/stl_numeric.h:
 
 /usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
 
@@ -750,8 +783,6 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/include/aarch64-linux-gnu/bits/sched.h:
-
 /usr/include/c++/13/vector:
 
 /usr/include/aarch64-linux-gnu/bits/long-double.h:
@@ -772,7 +803,7 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /mnt/hgfs/labs/libsponge/tcp_connection.hh:
 
-/usr/include/aarch64-linux-gnu/bits/poll.h:
+/mnt/hgfs/labs/libsponge/network_interface.hh:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
@@ -786,9 +817,9 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/include/aarch64-linux-gnu/c++/13/bits/c++allocator.h:
 
-/usr/include/c++/13/bits/locale_facets.h:
+/usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/aarch64-linux-gnu/bits/in.h:
 
@@ -802,11 +833,9 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/aarch64-linux-gnu/c++/13/bits/error_constants.h:
 
-/usr/include/c++/13/list:
+/usr/include/c++/13/cmath:
 
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/opt_random.h:
+/usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
 
 /usr/include/c++/13/tr1/hypergeometric.tcc:
 
@@ -852,12 +881,6 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/c++/13/cctype:
 
-/usr/include/asm-generic/errno.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/asm-generic/socket.h:
@@ -879,8 +902,6 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 /usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/include/c++/13/clocale:
 
 /usr/include/c++/13/unordered_map:
 
@@ -1034,12 +1055,6 @@ apps/CMakeFiles/webget.dir/webget.cc.o: /mnt/hgfs/labs/apps/webget.cc \
 
 /usr/include/c++/13/bits/string_view.tcc:
 
-/usr/include/c++/13/cerrno:
+/usr/include/aarch64-linux-gnu/bits/poll.h:
 
-/usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/include/c++/13/cmath:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/compare:
+/usr/include/c++/13/bits/unordered_set.h:

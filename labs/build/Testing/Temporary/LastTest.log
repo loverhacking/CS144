@@ -1,29 +1,52 @@
-Start testing: Mar 06 02:42 UTC
+Start testing: Mar 17 02:17 UTC
 ----------------------------------------------------------
 31/169 Testing: t_webget
 31/169 Test: t_webget
 Command: "/mnt/hgfs/labs/tests/webget_t.sh"
 Directory: /mnt/hgfs/labs/build
-"t_webget" start time: Mar 06 02:42 UTC
+"t_webget" start time: Mar 17 02:17 UTC
 Output:
 ----------------------------------------------------------
-DEBUG: Connecting to 104.196.238.229:80... done.
+DEBUG: Network interface has Ethernet address b6:3b:76:f2:99:54 and IP address 169.254.10.9
+DEBUG: Connecting to 104.196.238.229:80...
+Successfully connected to 104.196.238.229:80.
 DEBUG: Inbound stream from 104.196.238.229:80 finished cleanly.
 DEBUG: Outbound stream to 104.196.238.229:80 finished (1 byte still in flight).
 Warning: unclean shutdown of TCPSpongeSocket
 Exception in TCPConnection runner thread: shutdown: Bad file descriptor
-terminate called after throwing an instance of 'std::exception'
-  what():  std::exception
 HTTP/1.1 200 OK
 Content-type: text/plain
 
 7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+terminate called after throwing an instance of 'std::exception'
+  what():  std::exception
 <end of output>
-Test time =   2.28 sec
+Test time =   2.30 sec
 ----------------------------------------------------------
 Test Passed.
-"t_webget" end time: Mar 06 02:42 UTC
+"t_webget" end time: Mar 17 02:17 UTC
 "t_webget" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-End testing: Mar 06 02:42 UTC
+32/169 Testing: arp_network_interface
+32/169 Test: arp_network_interface
+Command: "/mnt/hgfs/labs/build/tests/net_interface"
+Directory: /mnt/hgfs/labs/build
+"arp_network_interface" start time: Mar 17 02:17 UTC
+Output:
+----------------------------------------------------------
+DEBUG: Network interface has Ethernet address 1a:0d:28:b0:0d:e8 and IP address 4.3.2.1
+DEBUG: Network interface has Ethernet address 6e:50:54:15:cd:0d and IP address 5.5.5.5
+DEBUG: Network interface has Ethernet address 4e:fe:e6:18:00:53 and IP address 5.5.5.5
+DEBUG: Network interface has Ethernet address 3e:d6:d8:ad:11:00 and IP address 1.2.3.4
+DEBUG: Network interface has Ethernet address 9a:18:b3:56:8e:56 and IP address 4.3.2.1
+DEBUG: Network interface has Ethernet address 0a:66:3b:46:6b:32 and IP address 10.0.0.1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"arp_network_interface" end time: Mar 17 02:17 UTC
+"arp_network_interface" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 17 02:17 UTC

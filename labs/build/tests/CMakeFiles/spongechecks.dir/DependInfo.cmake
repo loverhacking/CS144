@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/hgfs/labs/tests/byte_stream_test_harness.cc" "tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o" "gcc" "tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o.d"
+  "/mnt/hgfs/labs/tests/network_interface_test_harness.cc" "tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o" "gcc" "tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o.d"
   "/mnt/hgfs/labs/tests/send_equivalence_checker.cc" "tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o" "gcc" "tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o.d"
   "/mnt/hgfs/labs/tests/tcp_fsm_test_harness.cc" "tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o" "gcc" "tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o.d"
   )

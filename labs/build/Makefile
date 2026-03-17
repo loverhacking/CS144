@@ -348,6 +348,19 @@ tcp_ipv4/fast:
 .PHONY : tcp_ipv4/fast
 
 #=============================================================================
+# Target rules for targets named tcp_ip_ethernet
+
+# Build rule for target.
+tcp_ip_ethernet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_ip_ethernet
+.PHONY : tcp_ip_ethernet
+
+# fast build rule for target.
+tcp_ip_ethernet/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ip_ethernet.dir/build.make apps/CMakeFiles/tcp_ip_ethernet.dir/build
+.PHONY : tcp_ip_ethernet/fast
+
+#=============================================================================
 # Target rules for targets named webget
 
 # Build rule for target.
@@ -959,6 +972,19 @@ send_extra/fast:
 .PHONY : send_extra/fast
 
 #=============================================================================
+# Target rules for targets named net_interface
+
+# Build rule for target.
+net_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 net_interface
+.PHONY : net_interface
+
+# fast build rule for target.
+net_interface/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/net_interface.dir/build.make tests/CMakeFiles/net_interface.dir/build
+.PHONY : net_interface/fast
+
+#=============================================================================
 # Target rules for targets named address_dt
 
 # Build rule for target.
@@ -1043,6 +1069,7 @@ help:
 	@echo "... fsm_stream_reassembler_win"
 	@echo "... fsm_winsize"
 	@echo "... ipv4_parser"
+	@echo "... net_interface"
 	@echo "... parser_dt"
 	@echo "... recv_close"
 	@echo "... recv_connect"
@@ -1062,6 +1089,7 @@ help:
 	@echo "... spongechecks"
 	@echo "... stream_copy"
 	@echo "... tcp_benchmark"
+	@echo "... tcp_ip_ethernet"
 	@echo "... tcp_ipv4"
 	@echo "... tcp_native"
 	@echo "... tcp_parser"

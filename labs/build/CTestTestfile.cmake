@@ -66,7 +66,7 @@ add_test(t_byte_stream_many_writes "/mnt/hgfs/labs/build/tests/byte_stream_many_
 set_tests_properties(t_byte_stream_many_writes PROPERTIES  _BACKTRACE_TRIPLES "/mnt/hgfs/labs/etc/tests.cmake;38;add_test;/mnt/hgfs/labs/etc/tests.cmake;0;;/mnt/hgfs/labs/CMakeLists.txt;27;include;/mnt/hgfs/labs/CMakeLists.txt;0;")
 add_test(t_webget "/mnt/hgfs/labs/tests/webget_t.sh")
 set_tests_properties(t_webget PROPERTIES  _BACKTRACE_TRIPLES "/mnt/hgfs/labs/etc/tests.cmake;40;add_test;/mnt/hgfs/labs/etc/tests.cmake;0;;/mnt/hgfs/labs/CMakeLists.txt;27;include;/mnt/hgfs/labs/CMakeLists.txt;0;")
-add_test(arp_network_interface "net_interface")
+add_test(arp_network_interface "/mnt/hgfs/labs/build/tests/net_interface")
 set_tests_properties(arp_network_interface PROPERTIES  _BACKTRACE_TRIPLES "/mnt/hgfs/labs/etc/tests.cmake;42;add_test;/mnt/hgfs/labs/etc/tests.cmake;0;;/mnt/hgfs/labs/CMakeLists.txt;27;include;/mnt/hgfs/labs/CMakeLists.txt;0;")
 add_test(router_test "network_simulator")
 set_tests_properties(router_test PROPERTIES  _BACKTRACE_TRIPLES "/mnt/hgfs/labs/etc/tests.cmake;44;add_test;/mnt/hgfs/labs/etc/tests.cmake;0;;/mnt/hgfs/labs/CMakeLists.txt;27;include;/mnt/hgfs/labs/CMakeLists.txt;0;")

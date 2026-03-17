@@ -211,6 +211,20 @@ tcp_ipv4/fast:
 .PHONY : tcp_ipv4/fast
 
 # Convenience name for target.
+apps/CMakeFiles/tcp_ip_ethernet.dir/rule:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/tcp_ip_ethernet.dir/rule
+.PHONY : apps/CMakeFiles/tcp_ip_ethernet.dir/rule
+
+# Convenience name for target.
+tcp_ip_ethernet: apps/CMakeFiles/tcp_ip_ethernet.dir/rule
+.PHONY : tcp_ip_ethernet
+
+# fast build rule for target.
+tcp_ip_ethernet/fast:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ip_ethernet.dir/build.make apps/CMakeFiles/tcp_ip_ethernet.dir/build
+.PHONY : tcp_ip_ethernet/fast
+
+# Convenience name for target.
 apps/CMakeFiles/webget.dir/rule:
 	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/webget.dir/rule
 .PHONY : apps/CMakeFiles/webget.dir/rule
@@ -285,6 +299,30 @@ tcp_benchmark.s: tcp_benchmark.cc.s
 tcp_benchmark.cc.s:
 	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_benchmark.dir/build.make apps/CMakeFiles/tcp_benchmark.dir/tcp_benchmark.cc.s
 .PHONY : tcp_benchmark.cc.s
+
+tcp_ip_ethernet.o: tcp_ip_ethernet.cc.o
+.PHONY : tcp_ip_ethernet.o
+
+# target to build an object file
+tcp_ip_ethernet.cc.o:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ip_ethernet.dir/build.make apps/CMakeFiles/tcp_ip_ethernet.dir/tcp_ip_ethernet.cc.o
+.PHONY : tcp_ip_ethernet.cc.o
+
+tcp_ip_ethernet.i: tcp_ip_ethernet.cc.i
+.PHONY : tcp_ip_ethernet.i
+
+# target to preprocess a source file
+tcp_ip_ethernet.cc.i:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ip_ethernet.dir/build.make apps/CMakeFiles/tcp_ip_ethernet.dir/tcp_ip_ethernet.cc.i
+.PHONY : tcp_ip_ethernet.cc.i
+
+tcp_ip_ethernet.s: tcp_ip_ethernet.cc.s
+.PHONY : tcp_ip_ethernet.s
+
+# target to generate assembly for a file
+tcp_ip_ethernet.cc.s:
+	cd /mnt/hgfs/labs/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ip_ethernet.dir/build.make apps/CMakeFiles/tcp_ip_ethernet.dir/tcp_ip_ethernet.cc.s
+.PHONY : tcp_ip_ethernet.cc.s
 
 tcp_ipv4.o: tcp_ipv4.cc.o
 .PHONY : tcp_ipv4.o
@@ -441,6 +479,7 @@ help:
 	@echo "... test"
 	@echo "... stream_copy"
 	@echo "... tcp_benchmark"
+	@echo "... tcp_ip_ethernet"
 	@echo "... tcp_ipv4"
 	@echo "... tcp_native"
 	@echo "... tcp_udp"
@@ -453,6 +492,9 @@ help:
 	@echo "... tcp_benchmark.o"
 	@echo "... tcp_benchmark.i"
 	@echo "... tcp_benchmark.s"
+	@echo "... tcp_ip_ethernet.o"
+	@echo "... tcp_ip_ethernet.i"
+	@echo "... tcp_ip_ethernet.s"
 	@echo "... tcp_ipv4.o"
 	@echo "... tcp_ipv4.i"
 	@echo "... tcp_ipv4.s"
